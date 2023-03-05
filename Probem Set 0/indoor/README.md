@@ -10,7 +10,6 @@ In a file called indoor.py, implement a program in Python that prompts the user 
 ### Hints
 
 * Recall that input returns a str, per - [docs.python.org/3/library/functions.html#input](https://docs.python.org/3/library/functions.html#input).
-
 * Recall that a str comes with quite a few methods, per - [docs.python.org/3/library/stdtypes.html#string-methods](https://docs.python.org/3/library/stdtypes.html#string-methods).
 
 # How to Test
