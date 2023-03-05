@@ -1,6 +1,6 @@
 # Refueling
 
-In a file called fuel.py, reimplement Fuel Gauge from Problem Set 3, restructuring your code per the below, wherein:
+In a file called fuel.py, reimplement [Fuel Gauge](https://cs50.harvard.edu/python/2022/psets/3/fuel/) from [Problem Set 3](https://cs50.harvard.edu/python/2022/psets/3/), restructuring your code per the below, wherein:
 
 * convert expects a str in X/Y format as input, wherein each of X and Y is an integer, and returns that fraction as a percentage rounded to the nearest int between 0 and 100, inclusive. If X and/or Y is not an integer, or if X is greater than Y, then convert should raise a ValueError. If Y is 0, then convert should raise a ZeroDivisionError.
 * gauge expects an int and returns a str that is:
@@ -44,7 +44,27 @@ from fuel import convert, gauge
 atop test_fuel.py so that you can call convert and gauge in your tests.
 
 * Take care to return, not print, an int in convert and a str in gauge. Only main should call print.
-* Note that you can check with pytest whether a function has raised an exception, per - docs.pytest.org/en/latest/how-to/assert.html#assertions-about-expected-exceptions.
+* Note that you can check with pytest whether a function has raised an exception, per - [docs.pytest.org/en/latest/how-to/assert.html#assertions-about-expected-exceptions](https://docs.pytest.org/en/latest/how-to/assert.html#assertions-about-expected-exceptions).
+
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir test_fuel
+
+to make a folder called test_fuel in your codespace.
+Then execute
+
+$ cd test_fuel
+
+to change directories into that folder. You should now see your terminal prompt as test_fuel/ $. You can now execute
+
+$ code test_fuel.py
+
+to make a file called test_fuel.py where you’ll write your tests.
 
 # How to Test
 
