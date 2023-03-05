@@ -17,17 +17,17 @@ $
 
 Next execute
 
-mkdir einstein
+$ mkdir einstein
 
 to make a folder called einstein in your codespace.
 
 Then execute
 
-cd einstein
+$ cd einstein
 
 to change directories into that folder. You should now see your terminal prompt as einstein/ $. You can now execute
 
-code einstein.py
+$ code einstein.py
 
 to make a file called einstein.py where you’ll write your program.
 
