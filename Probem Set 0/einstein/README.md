@@ -20,7 +20,6 @@ Next execute
 $ mkdir einstein
 
 to make a folder called einstein in your codespace.
-
 Then execute
 
 $ cd einstein
