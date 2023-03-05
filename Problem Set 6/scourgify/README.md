@@ -80,6 +80,7 @@ In a file called scourgify.py, implement a program that:
 
 If the user does not provide exactly two command-line arguments, or if the first cannot be read, the program should exit via sys.exit with an error message.
 
+
 ### Hints
 
 * Note that csv module comes with quite a few methods, per - [docs.python.org/3/library/csv.html](https://docs.python.org/3/library/csv.html), among which are DictReader, per - [docs.python.org/3/library/csv.html#csv.DictReader](https://docs.python.org/3/library/csv.html#csv.DictReader) and DictWriter, per - [docs.python.org/3/library/csv.html#csv.DictWriter](https://docs.python.org/3/library/csv.html#csv.DictWriter).
