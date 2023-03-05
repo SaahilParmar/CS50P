@@ -1,10 +1,10 @@
 # Scourgify
 
-“Ah, well,” said Tonks, slamming the trunk’s lid shut, “at least it’s all in. That could do with a bit of cleaning, too.” She pointed her wand at Hedwig’s cage. “Scourgify.” A few feathers and droppings vanished.
+“Ah, well,” said Tonks, slamming the trunk’s lid shut, “at least it’s all in. That could do with a bit of cleaning, too.” She pointed her wand at Hedwig’s cage. “[Scourgify](https://harrypotter.fandom.com/wiki/Scouring_Charm).” A few feathers and droppings vanished.
 
 — Harry Potter and the Order of the Phoenix
 
-Data, too, often needs to be “cleaned,” as by reformatting it, so that values are in a consistent, if not more convenient, format. Consider, for instance, this CSV file of students, before.csv, below:
+Data, too, often needs to be “cleaned,” as by reformatting it, so that values are in a consistent, if not more convenient, format. Consider, for instance, this CSV file of students, [before.csv](https://cs50.harvard.edu/python/2022/psets/6/scourgify/before.csv), below:
 
 name,house
 "Abbott, Hannah",Hufflepuff
@@ -61,9 +61,9 @@ name,house
 "Wood, Oliver",Gryffindor
 "Zabini, Blaise",Slytherin
 
-Source: en.wikipedia.org/wiki/List_of_Harry_Potter_characters
+Source: [en.wikipedia.org/wiki/List_of_Harry_Potter_characters](https://en.wikipedia.org/wiki/List_of_Harry_Potter_characters)
 
-Even though each “row” in the file has three values (last name, first name, and house), the first two are combined into one “column” (name), escaped with double quotes, with last name and first name separated by a comma and space. Not ideal if Hogwarts wants to send a form letter to each student, as via mail merge, since it’d be strange to start a letter with:
+Even though each “row” in the file has three values (last name, first name, and house), the first two are combined into one “column” (name), escaped with double quotes, with last name and first name separated by a comma and space. Not ideal if [Hogwarts](https://en.wikipedia.org/wiki/Hogwarts) wants to send a [form letter](https://en.wikipedia.org/wiki/Form_letter) to each student, as via [mail merge](https://en.wikipedia.org/wiki/Mail_merge), since it’d be strange to start a letter with:
 
 Dear Potter, Harry,
 
@@ -82,14 +82,32 @@ If the user does not provide exactly two command-line arguments, or if the first
 
 ### Hints
 
-* Note that csv module comes with quite a few methods, per - docs.python.org/3/library/csv.html, among which are DictReader, per - docs.python.org/3/library/csv.html#csv.DictReader and DictWriter, per - docs.python.org/3/library/csv.html#csv.DictWriter.
-* Note that you can tell a DictWriter to write its fieldnames to a file using writeheader with no arguments, per - docs.python.org/3/library/csv.html#csv.DictWriter.writeheader.
+* Note that csv module comes with quite a few methods, per - [docs.python.org/3/library/csv.html](https://docs.python.org/3/library/csv.html), among which are DictReader, per - [docs.python.org/3/library/csv.html#csv.DictReader](https://docs.python.org/3/library/csv.html#csv.DictReader) and DictWriter, per - [docs.python.org/3/library/csv.html#csv.DictWriter](https://docs.python.org/3/library/csv.html#csv.DictWriter).
+* Note that you can tell a DictWriter to write its fieldnames to a file using writeheader with no arguments, per - [docs.python.org/3/library/csv.html#csv.DictWriter.writeheader](https://docs.python.org/3/library/csv.html#csv.DictWriter.writeheader).
 
-Code scourgify.py
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir scourgify
+
+to make a folder called scourgify in your codespace.
+Then execute
+
+$ cd scourgify
+
+to change directories into that folder. You should now see your terminal prompt as scourgify/ $. You can now execute
+
+$ code scourgify.py
+
 to make a file called scourgify.py where you’ll write your program. Be sure to run
 
 wget https://cs50.harvard.edu/python/2022/psets/6/scourgify/before.csv
-to download before.csv into your folder.
+
+to download [before.csv](https://cs50.harvard.edu/python/2022/psets/6/scourgify/before.csv) into your folder.
 
 # How to Test
 
