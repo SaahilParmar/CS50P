@@ -38,6 +38,26 @@ Assume that the user will input values in the expected formats.
 * Recall that float can convert a str to a float, per - [docs.python.org/3/library/functions.html#float](https://docs.python.org/3/library/functions.html#float).
 * Recall that a str comes with quite a few methods, per - [docs.python.org/3/library/stdtypes.html#string-methods](https://docs.python.org/3/library/stdtypes.html#string-methods).
 
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir tip
+
+to make a folder called tip in your codespace.
+Then execute
+
+$ cd tip
+
+to change directories into that folder. You should now see your terminal prompt as tip/ $. You can now execute
+
+$ code tip.py
+
+to make a file called tip.py. Copy and paste the code above into a file, and complete the implementations of dollars_to_float and percent_to_float, replacing each TODO with one or more lines of your own code.
+
 # How to Test
 
 Here’s how to test your code manually:
