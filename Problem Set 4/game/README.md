@@ -15,7 +15,27 @@ In a file called game.py, implement a program that:
 
 ### Hints
 
-* Note that the random module comes with quite a few functions, per docs.python.org/3/library/random.html.
+* Note that the random module comes with quite a few functions, per [docs.python.org/3/library/random.html](https://docs.python.org/3/library/random.html).
+
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir game
+
+to make a folder called game in your codespace.
+Then execute
+
+$ cd game
+
+to change directories into that folder. You should now see your terminal prompt as game/ $. You can now execute
+
+$ code game.py
+
+to make a file called game.py where you’ll write your program.
 
 # How to Test
 
