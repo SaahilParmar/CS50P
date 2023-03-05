@@ -6,9 +6,9 @@ In a file called einstein.py, implement a program in Python that prompts the use
 
 ### Hints
 
-* Recall that input returns a str, per - docs.python.org/3/library/functions.html#input.
-* Recall that int can convert a str to an int, per - docs.python.org/3/library/functions.html#int.
-* Recall that Python comes with several built-in functions, per - docs.python.org/3/library/functions.html.
+* Recall that input returns a str, per - [docs.python.org/3/library/functions.html#input](https://docs.python.org/3/library/functions.html#input).
+* Recall that int can convert a str to an int, per - [docs.python.org/3/library/functions.html#int](https://docs.python.org/3/library/functions.html#int).
+* Recall that Python comes with several built-in functions, per - [docs.python.org/3/library/functions.html](https://docs.python.org/3/library/functions.html).
 
 # How to Test
 
