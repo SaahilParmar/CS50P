@@ -2,12 +2,8 @@
 
 [FIGlet](https://en.wikipedia.org/wiki/FIGlet), named after [Frank, Ian, and Glen’s letters](http://www.figlet.org/faq.html), is a program from the early 1990s for making large letters out of ordinary text, a form of [ASCII art](https://en.wikipedia.org/wiki/ASCII_art):
 
+![App Screenshot]()![Screenshot 2023-03-05 3 11 05 PM](https://user-images.githubusercontent.com/116298945/222953092-cd955bc3-595f-4d19-96d3-751612d00d04.png)
 
- _ _ _          _   _     _
-| (_) | _____  | |_| |__ (_)___
-| | | |/ / _ \ | __| '_ \| / __|
-| | |   <  __/ | |_| | | | \__ \
-|_|_|_|\_\___|  \__|_| |_|_|___/
 
 Among the fonts supported by FIGlet are those at [figlet.org/examples.html](http://www.figlet.org/examples.html).
 
