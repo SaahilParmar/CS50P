@@ -1,6 +1,6 @@
 # Little Professor
 
-One of David’s first toys as a child, funny enough, was Little Professor, a “calculator” that would generate ten different math problems for David to solve. For instance, if the toy were to display 4 + 0 = , David would (hopefully) answer with 4. If the toy were to display 4 + 1 = , David would (hopefully) answer with 5. If David were to answer incorrectly, the toy would display EEE. And after three incorrect answers for the same problem, the toy would simply display the correct answer (e.g., 4 + 0 = 4 or 4 + 1 = 5).
+One of David’s first toys as a child, funny enough, was [Little Professor](https://en.wikipedia.org/wiki/Little_Professor), a “calculator” that would generate ten different math problems for David to solve. For instance, if the toy were to display 4 + 0 = , David would (hopefully) answer with 4. If the toy were to display 4 + 1 = , David would (hopefully) answer with 5. If David were to answer incorrectly, the toy would display EEE. And after three incorrect answers for the same problem, the toy would simply display the correct answer (e.g., 4 + 0 = 4 or 4 + 1 = 5).
 
 In a file called professor.py, implement a program that:
 
@@ -37,7 +37,27 @@ if __name__ == "__main__":
 
 * Note that you can raise an exception like ValueError with code like:
 raise ValueError
-* Note that the random module comes with quite a few functions, per - docs.python.org/3/library/random.html.
+* Note that the random module comes with quite a few functions, per - [docs.python.org/3/library/random.html](https://docs.python.org/3/library/random.html).
+
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir professor
+
+to make a folder called professor in your codespace.
+Then execute
+
+$ cd professor
+
+to change directories into that folder. You should now see your terminal prompt as professor/ $. You can now execute
+
+$ code professor.py
+
+to make a file called professor.py where you’ll write your program.
 
 # How to Test
 
