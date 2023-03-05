@@ -4,35 +4,13 @@ Perhaps the most popular place for pizza in [Harvard Square](https://en.wikipedi
 
 Students tend to buy pizza by the slice, but Pinocchio’s also has whole pizzas on its [menu](https://www.pinocchiospizza.net/menu.html) too, per this CSV file of Sicilian pizzas, [sicilian.csv](https://cs50.harvard.edu/python/2022/psets/6/pizza/sicilian.csv), below:
 
-Sicilian Pizza,Small,Large
-
-Cheese,$25.50,$39.95
-
-1 item,$27.50,$41.95
-
-2 items,$29.50,$43.95
-
-3 items,$31.50,$45.95
-
-Special,$33.50,$47.95
+![App Screenshot](https://user-images.githubusercontent.com/116298945/222955184-5f3e8f83-898e-44a7-a101-21cb68c770c4.png)
 
 See [regular.csv](https://cs50.harvard.edu/python/2022/psets/6/pizza/regular.csv) for a CSV file of regular pizzas as well.
 
 Of course, a CSV file isn’t the most customer-friendly format to look at. Prettier might be a table, formatted as ASCII art, like this one:
 
-+------------------+---------+---------+
-| Sicilian Pizza   | Small   | Large   |
-+==================+=========+=========+
-| Cheese           | $25.50  | $39.95  |
-+------------------+---------+---------+
-| 1 item           | $27.50  | $41.95  |
-+------------------+---------+---------+
-| 2 items          | $29.50  | $43.95  |
-+------------------+---------+---------+
-| 3 items          | $31.50  | $45.95  |
-+------------------+---------+---------+
-| Special          | $33.50  | $47.95  |
-+------------------+---------+---------+
+![App Screenshot](https://user-images.githubusercontent.com/116298945/222955210-ac8ad648-2c32-4793-ab95-71fc33b75df8.png)
 
 In a file called pizza.py, implement a program that expects exactly one command-line argument, the name (or path) of a CSV file in Pinocchio’s format, and outputs a table formatted as ASCII art using tabulate, a package on PyPI at [pypi.org/project/tabulate](https://pypi.org/project/tabulate/). Format the table using the library’s grid format. If the user does not specify exactly one command-line argument, or if the specified file’s name does not end in .csv, or if the specified file does not exist, the program should instead exit via sys.exit.
 
@@ -83,19 +61,8 @@ File does not exist
 * Create a file named sicilian.txt. Run your program with python pizza.py sicilian.txt. Your program should exit using sys.exit and provide an error message:
 Not a CSV file
 * Run your program with python pizza.py regular.csv. Assuming you’ve downloaded [regular.csv](https://cs50.harvard.edu/python/2022/psets/6/pizza/regular.csv), your program should print a table like the below:
-+-----------------+---------+---------+
-| Regular Pizza   | Small   | Large   |
-+=================+=========+=========+
-| Cheese          | $13.50  | $18.95  |
-+-----------------+---------+---------+
-| 1 topping       | $14.75  | $20.95  |
-+-----------------+---------+---------+
-| 2 toppings      | $15.95  | $22.95  |
-+-----------------+---------+---------+
-| 3 toppings      | $16.95  | $24.95  |
-+-----------------+---------+---------+
-| Special         | $18.50  | $26.95  |
-+-----------------+---------+---------+
+ 
+![App Screenshot](https://user-images.githubusercontent.com/116298945/222955215-c82f1815-2d93-4735-816e-08e583276636.png)
 
 You can execute the below to check your code using check50, a program that CS50 will use to test your code when you submit. But be sure to test it yourself as well!
 
