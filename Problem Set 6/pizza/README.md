@@ -40,11 +40,11 @@ $ code pizza.py
 
 to make a file called pizza.py where you’ll write your program. Be sure to run
 
-wget https://cs50.harvard.edu/python/2022/psets/6/pizza/sicilian.csv
+$ wget https://cs50.harvard.edu/python/2022/psets/6/pizza/sicilian.csv
 
 to download [sicilian.csv](https://cs50.harvard.edu/python/2022/psets/6/pizza/sicilian.csv) into your folder. Also run
 
-wget https://cs50.harvard.edu/python/2022/psets/6/pizza/regular.csv
+$ wget https://cs50.harvard.edu/python/2022/psets/6/pizza/regular.csv
 
 to download [regular.csv](https://cs50.harvard.edu/python/2022/psets/6/pizza/regular.csv) into your folder.
 
