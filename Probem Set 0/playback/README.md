@@ -10,6 +10,26 @@ In a file called playback.py, implement a program in Python that prompts the use
 * Recall that input returns a str, per - [docs.python.org/3/library/functions.html#input](https://docs.python.org/3/library/functions.html#input).
 * Recall that a str comes with quite a few methods, per - [docs.python.org/3/library/stdtypes.html#string-methods](https://docs.python.org/3/library/stdtypes.html#string-methods).
 
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir playback
+
+to make a folder called playback in your codespace.
+Then execute
+
+$ cd playback
+
+to change directories into that folder. You should now see your terminal prompt as playback/ $. You can now execute
+
+$ code playback.py
+
+to make a file called playback.py where you’ll write your program.
+
 # How to Test
 
 Here’s how to test your code manually:
