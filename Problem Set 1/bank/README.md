@@ -9,6 +9,26 @@ In a file called bank.py, implement a program that prompts the user for a greeti
 * Recall that a str comes with quite a few methods, per - [docs.python.org/3/library/stdtypes.html#string-methods](https://docs.python.org/3/library/stdtypes.html#string-methods).
 * Be sure to give $0 not only for “hello” but also “hello there”, “hello, Newman”, and the like.
 
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir bank
+
+to make a folder called bank in your codespace.
+Then execute
+
+$ cd bank
+
+to change directories into that folder. You should now see your terminal prompt as bank/ $. You can now execute
+
+$ code bank.py
+
+to make a file called bank.py where you’ll write your program.
+
 # How to Test
 Here’s how to test your code manually:
 
