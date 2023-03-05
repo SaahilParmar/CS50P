@@ -22,9 +22,6 @@ etc. & send them to your provided email address, so that
 you can access them at any time without the trouble of
 remembering.
 
-
-
-
 ## THINGS TO KEEP IN MIND BEFORE RUNNING THIS PROGRAM
 
 * Since one of the main features of this program is email transfer, any mail sent, either consisting of OTP or list of passwords, there will be a copy of it in the sent section of the email account that was primarily used for sending the emails.
@@ -95,9 +92,6 @@ Here is description of the working of the program.
 
 => No information is stored on the device, regarding the list that was created by the user. Only a text file is created for a couple of seconds to sort the information before sending it in the mail. Then that particular text file is deleted permanently from the system. There is no way to retrieve it.
 
-
-
-
 ## Acknowledgements
 
-In the end & I would like to give my immense gratitude to the Professor David J. Malan, for teaching this fabulous course with great enthusiasm & passion.
+In the end & I would like to give my immense gratitude to the Professor [David J. Malan](https://twitter.com/davidjmalan?s=20), for teaching this fabulous course with great enthusiasm & passion. And [Katherine Oelsner](https://twitter.com/katherinecodes) creator of [readme.so](https://readme.so/), which helped in creating this markdown file.
