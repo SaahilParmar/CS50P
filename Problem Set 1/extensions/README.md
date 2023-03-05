@@ -27,17 +27,16 @@ $
 
 Next execute
 
-mkdir extensions
+$ mkdir extensions
 
 to make a folder called extensions in your codespace.
-
 Then execute
 
-cd extensions
+$ cd extensions
 
 to change directories into that folder. You should now see your terminal prompt as extensions/ $. You can now execute
 
-code extensions.py
+$ code extensions.py
 
 to make a file called extensions.py where you’ll write your program.
 
