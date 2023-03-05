@@ -5,12 +5,12 @@ Five hundred twenty-five thousand moments so dear
 Five hundred twenty-five thousand, six hundred minutes
 How do you measure, measure a year?
 
-— “Seasons of Love,” Rent
+— “[Seasons of Love](https://en.wikipedia.org/wiki/Seasons_of_Love),” [Rent](https://en.wikipedia.org/wiki/Rent_(musical))
 
 
-Assuming there are 365 days in a year, there are  minutes in that same year (because there are 24 hours in a day and 60 minutes in an hour). But how many minutes are there in two or more years? Well, it depends on how many of those are leap years with 366 days, per the Gregorian calendar, as some of them could have  additional minutes. In fact, how many minutes has it been since you were born? Well, that, too, depends on how many leap years there have been since! There is an algorithm for such, but let’s not reinvent that wheel. Let’s use a library instead. Fortunately, Python comes with a datetime module that has a class called date that can help, per - docs.python.org/3/library/datetime.html#date-objects.
+Assuming there are 365 days in a year, there are  minutes in that same year (because there are 24 hours in a day and 60 minutes in an hour). But how many minutes are there in two or more years? Well, it depends on how many of those are [leap years](https://en.wikipedia.org/wiki/Leap_year) with 366 days, per the [Gregorian calendar](https://en.wikipedia.org/wiki/Gregorian_calendar), as some of them could have  additional minutes. In fact, how many minutes has it been since you were born? Well, that, too, depends on how many leap years there have been since! There is an [algorithm](https://en.wikipedia.org/wiki/Leap_year#Algorithm) for such, but let’s not reinvent that wheel. Let’s use a library instead. Fortunately, Python comes with a datetime module that has a class called date that can help, per - [docs.python.org/3/library/datetime.html#date-objects](https://docs.python.org/3/library/datetime.html#date-objects).
 
-In a file called seasons.py, implement a program that prompts the user for their date of birth in YYYY-MM-DD format and then sings prints how old they are in minutes, rounded to the nearest integer, using English words instead of numerals, just like the song from Rent, without any and between words. Since a user might not know the time at which they were born, assume, for simplicity, that the user was born at midnight (i.e., 00:00:00) on that date. And assume that the current time is also midnight. In other words, even if the user runs the program at noon, assume that it’s actually midnight, on the same date. Use datetime.date.today to get today’s date, per - docs.python.org/3/library/datetime.html#datetime.date.today.
+In a file called seasons.py, implement a program that prompts the user for their date of birth in YYYY-MM-DD format and then sings prints how old they are in minutes, rounded to the nearest integer, using English words instead of numerals, just like the song from Rent, without any and between words. Since a user might not know the time at which they were born, assume, for simplicity, that the user was born at midnight (i.e., 00:00:00) on that date. And assume that the current time is also midnight. In other words, even if the user runs the program at noon, assume that it’s actually midnight, on the same date. Use datetime.date.today to get today’s date, per - [docs.python.org/3/library/datetime.html#datetime.date.today](https://docs.python.org/3/library/datetime.html#datetime.date.today).
 
 Structure your program per the below, not only with a main function but also with one or more other functions as well:
 
@@ -37,14 +37,34 @@ pytest test_seasons.py
 
 ### Hints
 
-* Note that the date class comes with quite a few methods and “supported operations,” per - docs.python.org/3/library/datetime.html#date-objects. In particular, the class implements __sub__, per - docs.python.org/3/library/operator.html#operator.__sub__, overloading - in such a way that subtracting one date object from another returns a timedelta object, which itself comes with several (read-only) “instance attributes,” per - docs.python.org/3/library/datetime.html#timedelta-objects.
-* Note that the inflect module comes with quite a few methods, per pypi.org/project/inflect. You can install it with:
+* Note that the date class comes with quite a few methods and “supported operations,” per - [docs.python.org/3/library/datetime.html#date-objects](https://docs.python.org/3/library/datetime.html#date-objects). In particular, the class implements __sub__, per - [docs.python.org/3/library/operator.html#operator.__sub__](https://docs.python.org/3/library/operator.html#operator.__sub__), overloading - in such a way that subtracting one date object from another returns a timedelta object, which itself comes with several (read-only) “instance attributes,” per - [docs.python.org/3/library/datetime.html#timedelta-objects](https://docs.python.org/3/library/datetime.html#timedelta-objects).
+* Note that the inflect module comes with quite a few methods, per [pypi.org/project/inflect](https://pypi.org/project/inflect/). You can install it with:
 
 pip install inflect
 
-Code seasons.py to make a file called seasons.py where you’ll write your program. Be sure to also execute
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
 
-Code test_seasons.py to create a file called test_seasons.py where you’ll write tests for your program.
+$
+
+Next execute
+
+$ mkdir seasons
+
+to make a folder called seasons in your codespace.
+Then execute
+
+$ cd seasons
+
+to change directories into that folder. You should now see your terminal prompt as seasons/ $. You can now execute
+
+$ code seasons.py
+
+to make a file called seasons.py where you’ll write your program. Be sure to also execute
+
+$ code test_seasons.py
+
+to create a file called test_seasons.py where you’ll write tests for your program.
 
 # How to Test
 
