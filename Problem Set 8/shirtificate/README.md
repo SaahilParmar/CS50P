@@ -1,7 +1,5 @@
 # CS50 Shirtificate
 
-
-
 ![App Screenshot](https://cs50.harvard.edu/python/2022/psets/8/shirtificate/jharvard.png)
 
 
