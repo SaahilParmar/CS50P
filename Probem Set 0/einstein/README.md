@@ -10,6 +10,27 @@ In a file called einstein.py, implement a program in Python that prompts the use
 * Recall that int can convert a str to an int, per - [docs.python.org/3/library/functions.html#int](https://docs.python.org/3/library/functions.html#int).
 * Recall that Python comes with several built-in functions, per - [docs.python.org/3/library/functions.html](https://docs.python.org/3/library/functions.html).
 
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+mkdir einstein
+
+to make a folder called einstein in your codespace.
+
+Then execute
+
+cd einstein
+
+to change directories into that folder. You should now see your terminal prompt as einstein/ $. You can now execute
+
+code einstein.py
+
+to make a file called einstein.py where you’ll write your program.
+
 # How to Test
 
 Here’s how to test your code manually:
