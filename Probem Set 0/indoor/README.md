@@ -12,6 +12,26 @@ In a file called indoor.py, implement a program in Python that prompts the user 
 * Recall that input returns a str, per - [docs.python.org/3/library/functions.html#input](https://docs.python.org/3/library/functions.html#input).
 * Recall that a str comes with quite a few methods, per - [docs.python.org/3/library/stdtypes.html#string-methods](https://docs.python.org/3/library/stdtypes.html#string-methods).
 
+# Before You Begin
+Execute cd by itself in your terminal window. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir indoor
+
+to make a folder called indoor in your codespace.
+Then execute
+
+$ cd indoor
+
+to change directories into that folder. You should now see your terminal prompt as indoor/ $. You can now execute
+
+$ code indoor.py
+
+to make a file called indoor.py where you’ll write your program.
+
 # How to Test
 
 Here’s how to test your code manually. At the indoor/ $ prompt in your terminal: :
