@@ -6,7 +6,7 @@
 
 
 
-In Massachusetts, home to Harvard University, it’s possible to request a vanity license plate for your car, with your choice of letters and numbers instead of random ones. Among the requirements, though, are:
+In Massachusetts, home to Harvard University, it’s possible to [request a vanity license plate](https://www.mass.gov/how-to/request-a-vanity-license-plate) for your car, with your choice of letters and numbers instead of random ones. Among the requirements, though, are:
 
 * “All vanity plates must start with at least two letters.”
 * “… vanity plates may contain a maximum of 6 characters (letters or numbers) and a minimum of 2 characters.”
@@ -33,8 +33,28 @@ main()
 
 ### Hints
 
-* Recall that a str comes with quite a few methods, per - docs.python.org/3/library/stdtypes.html#string-methods.
-* Much like a list, a str is a “sequence” (of characters), which means it can be “sliced” into shorter strings with syntax like s[i:j]. For instance, if s is "CS50", then s[0:2] would be "CS".
+* Recall that a str comes with quite a few methods, per - [docs.python.org/3/library/stdtypes.html#string-methods](https://docs.python.org/3/library/stdtypes.html#string-methods).
+* Much like a list, a str is a “sequence” (of characters), which means it can be [“sliced”](https://docs.python.org/3/library/stdtypes.html#common-sequence-operations) into shorter strings with syntax like s[i:j]. For instance, if s is "CS50", then s[0:2] would be "CS".
+
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir plates
+
+to make a folder called plates in your codespace.
+Then execute
+
+$ cd plates
+
+to change directories into that folder. You should now see your terminal prompt as plates/ $. You can now execute
+
+$ code plates.py
+
+to make a file called plates.py where you’ll write your program.
 
 # How to Test
 Here’s how to test your code manually:
