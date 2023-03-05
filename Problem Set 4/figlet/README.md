@@ -3,7 +3,6 @@
 [FIGlet](https://en.wikipedia.org/wiki/FIGlet), named after [Frank, Ian, and Glen’s letters](http://www.figlet.org/faq.html), is a program from the early 1990s for making large letters out of ordinary text, a form of [ASCII art](https://en.wikipedia.org/wiki/ASCII_art):
 
 
-
  _ _ _          _   _     _
 | (_) | _____  | |_| |__ (_)___
 | | | |/ / _ \ | __| '_ \| / __|
