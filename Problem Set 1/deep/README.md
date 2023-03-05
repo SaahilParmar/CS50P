@@ -21,6 +21,26 @@ In deep.py, implement a program that prompts the user for the answer to the Grea
 * No need to convert the user’s input to an int if you check for equality with "42", a str, rather than 42, an int!
 * It’s okay if your output or the user’s wraps onto multiple lines.
 
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir deep
+
+to make a folder called deep in your codespace.
+Then execute
+
+$ cd deep
+
+to change directories into that folder. You should now see your terminal prompt as deep/ $. You can now execute
+
+$ code deep.py
+
+to make a file called deep.py where you’ll write your program.
+
 # How to Test
 Here’s how to test your code manually:
 
