@@ -1,6 +1,6 @@
 # Testing my twttr
 
-In a file called twttr.py, reimplement Setting up my twttr from Problem Set 2, restructuring your code per the below, wherein shorten expects a str as input and returns that same str but with all vowels (A, E, I, O, and U) omitted, whether inputted in uppercase or lowercase.
+In a file called twttr.py, reimplement [Setting up my twttr](https://cs50.harvard.edu/python/2022/psets/2/twttr/) from [Problem Set 2](https://cs50.harvard.edu/python/2022/psets/2/), restructuring your code per the below, wherein shorten expects a str as input and returns that same str but with all vowels (A, E, I, O, and U) omitted, whether inputted in uppercase or lowercase.
 
 def main():
 
@@ -32,6 +32,26 @@ from twttr import shorten
 atop test_twttr.py so that you can call shorten in your tests.
 
 * Take care to return, not print, a str in shorten. Only main should call print.
+
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir test_twttr
+
+to make a folder called test_twttr in your codespace.
+Then execute
+
+$ cd test_twttr
+
+to change directories into that folder. You should now see your terminal prompt as test_twttr/ $. You can now execute
+
+$ code test_twttr.py
+
+to make a file called test_twttr.py where you’ll write your tests.
 
 # How to Test
 
