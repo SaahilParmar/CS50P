@@ -20,7 +20,7 @@ if __name__ == "__main__":
     main()
 
 ### Hints
-* Recall that a str comes with quite a few methods, per docs.python.org/3/library/stdtypes.html#string-methods, including split, which separates a str into a sequence of values, all of which can be assigned to variables at once. For instance, if time is a str like "7:30", then
+* Recall that a str comes with quite a few methods, per [docs.python.org/3/library/stdtypes.html#string-methods](https://docs.python.org/3/library/stdtypes.html#string-methods), including split, which separates a str into a sequence of values, all of which can be assigned to variables at once. For instance, if time is a str like "7:30", then
 
 hours, minutes = time.split(":")
 
@@ -34,6 +34,26 @@ If up for a challenge, optionally add support for 12-hour times, allowing the us
 
 * #:## a.m. and ##:## a.m.
 * #:## p.m. and ##:## p.m.
+
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir meal
+
+to make a folder called meal in your codespace.
+Then execute
+
+$ cd meal
+
+to change directories into that folder. You should now see your terminal prompt as meal/ $. You can now execute
+
+$ code meal.py
+
+to make a file called meal.py where you’ll write your program.
 
 # How to Test
 
