@@ -5,6 +5,7 @@ Perhaps the most popular place for pizza in [Harvard Square](https://en.wikipedi
 Students tend to buy pizza by the slice, but Pinocchio’s also has whole pizzas on its [menu](https://www.pinocchiospizza.net/menu.html) too, per this CSV file of Sicilian pizzas, [sicilian.csv](https://cs50.harvard.edu/python/2022/psets/6/pizza/sicilian.csv), below:
 
 Sicilian Pizza,Small,Large
+
 Cheese,$25.50,$39.95
 1 item,$27.50,$41.95
 2 items,$29.50,$43.95
