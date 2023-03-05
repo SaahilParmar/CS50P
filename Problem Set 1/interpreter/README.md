@@ -12,12 +12,32 @@ For instance, if the user inputs 1 + 1, your program should output 2.0. Assume t
 Note that, just as python itself is an interpreter for Python, so will your interpreter.py be an interpreter for math!
 
 ### Hints
-Recall that a str comes with quite a few methods, per - docs.python.org/3/library/stdtypes.html#string-methods, including split, which separates a str into a sequence of values, all of which can be assigned to variables at once. For instance, if expression is a str like 1 + 1, then
+Recall that a str comes with quite a few methods, per - [docs.python.org/3/library/stdtypes.html#string-methods](https://docs.python.org/3/library/stdtypes.html#string-methods), including split, which separates a str into a sequence of values, all of which can be assigned to variables at once. For instance, if expression is a str like 1 + 1, then
 
 
 x, y, z = expression.split(" ")
 
 will assign 1 to x, + to y, and 1 to z.
+
+# Before You Begin
+Log into code.cs50.io, click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir interpreter
+
+to make a folder called interpreter in your codespace.
+Then execute
+
+$ cd interpreter
+
+to change directories into that folder. You should now see your terminal prompt as interpreter/ $. You can now execute
+
+$ code interpreter.py
+
+to make a file called interpreter.py where you’ll write your program.
 
 # How to Test
 Here’s how to test your code manually:
