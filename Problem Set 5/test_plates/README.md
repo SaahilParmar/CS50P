@@ -1,6 +1,6 @@
 # Re-requesting a Vanity Plate
 
-In a file called plates.py, reimplement Vanity Plates from Problem Set 2, restructuring your code per the below, wherein is_valid still expects a str as input and returns True if that str meets all requirements and False if it does not, but main is only called if the value of __name__ is "__main__":
+In a file called plates.py, reimplement [Vanity Plates](https://cs50.harvard.edu/python/2022/psets/2/plates/) from [Problem Set 2](https://cs50.harvard.edu/python/2022/psets/2/), restructuring your code per the below, wherein is_valid still expects a str as input and returns True if that str meets all requirements and False if it does not, but main is only called if the value of __name__ is "__main__":
 
 def main():
   
@@ -33,6 +33,26 @@ from plates import is_valid
 atop test_plates.py so that you can call is_valid in your tests.
 
 * Take care to return, not print, a bool in is_valid. Only main should call print.
+
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir test_plates
+
+to make a folder called test_plates in your codespace.
+Then execute
+
+$ cd test_plates
+
+to change directories into that folder. You should now see your terminal prompt as test_plates/ $. You can now execute
+
+$ code test_plates.py
+
+to make a file called test_plates.py where you’ll write your tests.
 
 # How to Test
 
