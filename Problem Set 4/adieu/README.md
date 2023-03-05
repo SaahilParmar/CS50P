@@ -1,10 +1,10 @@
 # Adieu, Adieu
 
-In The Sound of Music, there’s a song sung largely in English, So Long, Farewell, with these lyrics, wherein “adieu” means “goodbye” in French:
+In [The Sound of Music](https://en.wikipedia.org/wiki/The_Sound_of_Music_(film)), there’s a song sung largely in English, [So Long, Farewell](https://www.youtube.com/watch?v=Qy9_lfjQopU), with these [lyrics](https://www.lyrics.com/lyric/3998488/Julie+Andrews/So+Long%2C+Farewell), wherein “adieu” means “goodbye” in French:
 
 Adieu, adieu, to yieu and yieu and yieu
 
-Of course, the line isn’t grammatically correct, since it would typically be written (with an Oxford comma) as:
+Of course, the line isn’t grammatically correct, since it would typically be written (with an [Oxford comma](https://en.wikipedia.org/wiki/Serial_comma)) as:
 
 Adieu, adieu, to yieu, yieu, and yieu
 
@@ -22,8 +22,28 @@ Adieu, adieu, to Liesl, Friedrich, Louisa, Kurt, Brigitta, Marta, and Gretl
 
 ### Hints
 
-* Note that the inflect module comes with quite a few methods, per pypi.org/project/inflect. You can install it with:
+* Note that the inflect module comes with quite a few methods, per [pypi.org/project/inflect](https://pypi.org/project/inflect/). You can install it with:
 pip install inflect
+
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir adieu
+
+to make a folder called adieu in your codespace.
+Then execute
+
+$ cd adieu
+
+to change directories into that folder. You should now see your terminal prompt as adieu/ $. You can now execute
+
+$ code adieu.py
+
+to make a file called adieu.py where you’ll write your program.
 
 # How to Test
 
