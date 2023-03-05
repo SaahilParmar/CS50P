@@ -5,7 +5,7 @@ Suppose that you’re in the habit of making a list of items you need from the g
 In a file called grocery.py, implement a program that prompts the user for items, one per line, until the user inputs control-d (which is a common way of ending one’s input to a program). Then output the user’s grocery list in all uppercase, sorted alphabetically by item, prefixing each line with the number of times the user inputted that item. No need to pluralize the items. Treat the user’s input case-insensitively.
 
 ### Hints
-* Note that you can detect when the user has inputted control-d by catching an EOFError with code like:
+* Note that you can detect when the user has inputted control-d by catching an [EOFError](https://docs.python.org/3/library/exceptions.html#EOFError) with code like:
 try:
     
     item = input()
@@ -13,7 +13,7 @@ except EOFError:
     
     ...
 * Odds are you’ll want to store your grocery list as a dict.
-* Note that a dict comes with quite a few methods, per - docs.python.org/3/library/stdtypes.html#mapping-types-dict, among them get, and supports operations like:
+* Note that a dict comes with quite a few methods, per - [docs.python.org/3/library/stdtypes.html#mapping-types-dict](https://docs.python.org/3/library/stdtypes.html#mapping-types-dict), among them get, and supports operations like:
 d[key]
 and
 
@@ -22,7 +22,27 @@ if key in d:
     ...
 wherein d is a dict and key is a str.
 
-* Be sure to avoid or catch any KeyError.
+* Be sure to avoid or catch any [KeyError](https://docs.python.org/3/library/exceptions.html#KeyError).
+
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir grocery
+
+to make a folder called grocery in your codespace.
+Then execute
+
+$ cd grocery
+
+to change directories into that folder. You should now see your terminal prompt as grocery/ $. You can now execute
+
+$ code grocery.py
+
+to make a file called grocery.py where you’ll write your program.
 
 # How to Test
 
