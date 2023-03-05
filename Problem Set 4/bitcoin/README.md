@@ -3,14 +3,14 @@
 
 ![App Screenshot](https://cs50.harvard.edu/python/2022/psets/4/bitcoin/Bitcoin.svg.png)
 
-Bitcoin is a form of digitial currency, otherwise known as cryptocurrency. Rather than rely on a central authority like a bank, Bitcoin instead relies on a distributed network, otherwise known as a blockchain, to record transactions.
+[Bitcoin](https://en.wikipedia.org/wiki/Bitcoin) is a form of digitial currency, otherwise known as [cryptocurrency](https://en.wikipedia.org/wiki/Cryptocurrency). Rather than rely on a central authority like a bank, Bitcoin instead relies on a distributed network, otherwise known as a [blockchain](https://en.wikipedia.org/wiki/Blockchain), to record transactions.
 
 Because there’s demand for Bitcoin (i.e., users want it), users are willing to buy it, as by exchanging one currency (e.g., USD) for Bitcoin.
 
 In a file called bitcoin.py, implement a program that:
 
 * Expects the user to specify as a command-line argument the number of Bitcoins, , that they would like to buy. If that argument cannot be converted to a float, the program should exit via sys.exit with an error message.
-* Queries the API for the CoinDesk Bitcoin Price Index at https://api.coindesk.com/v1/bpi/currentprice.json, which returns a JSON object, among whose nested keys is the current price of Bitcoin as a float. Be sure to catch any exceptions, as with code like:
+* Queries the API for the CoinDesk Bitcoin Price Index at [https://api.coindesk.com/v1/bpi/currentprice.json](https://api.coindesk.com/v1/bpi/currentprice.json), which returns a [JSON](https://en.wikipedia.org/wiki/JSON) object, among whose nested keys is the current price of Bitcoin as a float. Be sure to catch any [exceptions](https://requests.readthedocs.io/en/latest/api/#exceptions), as with code like:
 
 import requests
 
@@ -24,8 +24,8 @@ except requests.RequestException:
 
 ### Hints
 
-* Recall that the sys module comes with argv, per - docs.python.org/3/library/sys.html#sys.argv.
-* Note that the requests module comes with quite a few methods, per requests.readthedocs.io/en/latest, among which are get, per requests.readthedocs.io/en/latest/user/quickstart/#make-a-request, and json, per requests.readthedocs.io/en/latest/user/quickstart/#json-response-content. You can install it with:
+* Recall that the sys module comes with argv, per - [docs.python.org/3/library/sys.html#sys.argv](https://docs.python.org/3/library/sys.html#sys.argv).
+* Note that the requests module comes with quite a few methods, per [requests.readthedocs.io/en/latest](https://requests.readthedocs.io/en/latest/), among which are get, per [requests.readthedocs.io/en/latest/user/quickstart/#make-a-request](https://requests.readthedocs.io/en/latest/user/quickstart/#make-a-request), and json, per [requests.readthedocs.io/en/latest/user/quickstart/#json-response-content](https://requests.readthedocs.io/en/latest/user/quickstart/#json-response-content). You can install it with:
 pip install requests
 * Note that CoinDesk’s API returns a JSON response like:
 {
@@ -67,8 +67,28 @@ pip install requests
    }
 }
 
-* Recall that you can format USD to four decimal places with a thousands separator with code like:
+* Recall that you can format USD to four decimal places with a [thousands separator](https://docs.python.org/3/library/string.html#formatspec) with code like:
 print(f"${amount:,.4f}")
+
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir bitcoin
+
+to make a folder called bitcoin in your codespace.
+Then execute
+
+$ cd bitcoin
+
+to change directories into that folder. You should now see your terminal prompt as bitcoin/ $. You can now execute
+
+$ code bitcoin.py
+
+to make a file called bitcoin.py where you’ll write your program.
 
 # How to Test
 
@@ -78,9 +98,9 @@ Here’s how to test your code manually:
 Missing command-line argument   
 * Run your program with python bitcoin.py cat. Your program should use sys.exit to exit with an error message:
 Command-line argument is not a number
-* Run your program with python bitcoin.py 1. Your program should output the price of a single Bitcoin to four decimal places, using , as a thousands separator.
-* Run your program with python bitcoin.py 2. Your program should output the price of two Bitcoin to four decimal places, using , as a thousands separator.
-* Run your program with python bitcoin.py 2.5. Your program should output the price of 2.5 Bitcoin to four decimal places, using , as a thousands separator.
+* Run your program with python bitcoin.py 1. Your program should output the price of a single Bitcoin to four decimal places, using , as a [thousands separator](https://docs.python.org/3/library/string.html#formatspec).
+* Run your program with python bitcoin.py 2. Your program should output the price of two Bitcoin to four decimal places, using , as a [thousands separator](https://docs.python.org/3/library/string.html#formatspec).
+* Run your program with python bitcoin.py 2.5. Your program should output the price of 2.5 Bitcoin to four decimal places, using , as a [thousands separator](https://docs.python.org/3/library/string.html#formatspec).
 
 You can execute the below to check your code using check50, a program that CS50 will use to test your code when you submit. But be sure to test it yourself as well!
 
