@@ -1,6 +1,6 @@
 # Frank, Ian and Glen’s Letters
 
-FIGlet, named after Frank, Ian, and Glen’s letters, is a program from the early 1990s for making large letters out of ordinary text, a form of ASCII art:
+[FIGlet](https://en.wikipedia.org/wiki/FIGlet), named after [Frank, Ian, and Glen’s letters](http://www.figlet.org/faq.html), is a program from the early 1990s for making large letters out of ordinary text, a form of [ASCII art](https://en.wikipedia.org/wiki/ASCII_art):
 
 
 
@@ -10,9 +10,9 @@ FIGlet, named after Frank, Ian, and Glen’s letters, is a program from the earl
 | | |   <  __/ | |_| | | | \__ \
 |_|_|_|\_\___|  \__|_| |_|_|___/
 
-Among the fonts supported by FIGlet are those at figlet.org/examples.html.
+Among the fonts supported by FIGlet are those at [figlet.org/examples.html](http://www.figlet.org/examples.html).
 
-FIGlet has since been ported to Python as a module called pyfiglet.
+FIGlet has since been ported to Python as a module called [pyfiglet](https://pypi.org/project/pyfiglet/0.7/).
 
 In a file called figlet.py, implement a program that:
 
@@ -45,7 +45,27 @@ And you can output text in that font with code like this, wherein s is that text
 
 print(figlet.renderText(s))
 
-* Note that the random module comes with quite a few functions, per docs.python.org/3/library/random.html.
+* Note that the random module comes with quite a few functions, per [docs.python.org/3/library/random.html](https://docs.python.org/3/library/random.html).
+
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir figlet
+
+to make a folder called figlet in your codespace.
+Then execute
+
+$ cd figlet
+
+to change directories into that folder. You should now see your terminal prompt as figlet/ $. You can now execute
+
+$ code figlet.py
+
+to make a file called figlet.py where you’ll write your program.
 
 # How to Test
 
