@@ -1,6 +1,6 @@
 # Working 9 to 5
 
-Whereas most countries use a 24-hour clock, the United States tends to use a 12-hour clock. Accordingly, instead of “09:00 to 17:00”, many Americans would say they work “9:00 AM to 5:00 PM” (or “9 AM to 5 PM”), wherein “AM” is an abbreviation for “ante meridiem” and “PM” is an abbreviation for “post meridiem”, wherein “meridiem” means midday (i.e., noon).
+Whereas [most countries](https://en.wikipedia.org/wiki/Date_and_time_representation_by_country#Time) use a [24-hour clock](https://en.wikipedia.org/wiki/24-hour_clock), the United States tends to use a [12-hour clock](https://en.wikipedia.org/wiki/12-hour_clock). Accordingly, instead of “09:00 to 17:00”, many Americans would say they work “9:00 AM to 5:00 PM” (or “9 AM to 5 PM”), wherein “AM” is an abbreviation for “ante meridiem” and “PM” is an abbreviation for “post meridiem”, wherein “meridiem” means midday (i.e., noon).
 
 * Conversion Table
 Just as “12:00 AM” in 12-hour format would be “00:00” in 24-hour format, so would “12:01 AM” through “12:59 AM” be “00:01” through “00:59”, respectively.
@@ -94,17 +94,37 @@ pytest test_working.py
 
 ### Hints
 
-* Recall that the re module comes with quite a few functions, per - docs.python.org/3/library/re.html, including search.
-* Recall that regular expressions support quite a few special characters, per - docs.python.org/3/library/re.html#regular-expression-syntax.
-* Because backslashes in regular expressions could be mistaken for escape sequences (like \n), best to use Python’s raw string notation for regular expression patterns, else pytest will warn with DeprecationWarning: invalid escape sequence. Just as format strings are prefixed with f, so are raw strings prefixed with r. For instance, instead of "harvard\.edu", use r"harvard\.edu".
-* Note that re.search, if passed a pattern with “capturing groups” (i.e., parentheses), returns a “match object,” per - docs.python.org/3/library/re.html#match-objects, wherein matches are 1-indexed, which you can access individually with group, per - docs.python.org/3/library/re.html#re.Match.group, or collectively with groups, per - docs.python.org/3/library/re.html#re.Match.groups.
+* Recall that the re module comes with quite a few functions, per - [docs.python.org/3/library/re.html](https://docs.python.org/3/library/re.html), including search.
+* Recall that regular expressions support quite a few special characters, per - [docs.python.org/3/library/re.html#regular-expression-syntax](https://docs.python.org/3/library/re.html#regular-expression-syntax).
+* Because backslashes in regular expressions could be mistaken for escape sequences (like \n), best to use [Python’s raw string notation for regular expression patterns](https://docs.python.org/3/library/re.html#module-re), else pytest will warn with DeprecationWarning: invalid escape sequence. Just as format strings are prefixed with f, so are raw strings prefixed with r. For instance, instead of "harvard\.edu", use r"harvard\.edu".
+* Note that re.search, if passed a pattern with “capturing groups” (i.e., parentheses), returns a “match object,” per - [docs.python.org/3/library/re.html#match-objects](https://docs.python.org/3/library/re.html#match-objects), wherein matches are 1-indexed, which you can access individually with group, per - [docs.python.org/3/library/re.html#re.Match.group](https://docs.python.org/3/library/re.html#re.Match.group), or collectively with groups, per - [docs.python.org/3/library/re.html#re.Match.groups](https://docs.python.org/3/library/re.html#re.Match.groups).
 * Note that you can format an int with leading zeroes with code like
 print(f"{n:02}")
-wherein, if n is a single digit, it will be prefixed with one 0, per docs.python.org/3/library/string.html#format-string-syntax.
+wherein, if n is a single digit, it will be prefixed with one 0, per [docs.python.org/3/library/string.html#format-string-syntax](https://docs.python.org/3/library/string.html#format-string-syntax).
 
-Code working.py to make a file called working.py where you’ll write your program. Be sure to also execute
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
 
-Code test_working.py to create a file called test_working.py where you’ll write tests for your program.
+$
+
+Next execute
+
+$ mkdir working
+
+to make a folder called working in your codespace.
+Then execute
+
+$ cd working
+
+to change directories into that folder. You should now see your terminal prompt as working/ $. You can now execute
+
+$ code working.py
+
+to make a file called working.py where you’ll write your program. Be sure to also execute
+
+$ code test_working.py
+
+to create a file called test_working.py where you’ll write tests for your program.
 
 # How to Test
 
