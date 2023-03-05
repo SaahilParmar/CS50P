@@ -33,16 +33,36 @@ pytest test_um.py
 
 ### Hints
 
-* Recall that the re module comes with quite a few functions, per docs.python.org/3/library/re.html, including findall.
-* Recall that regular expressions support quite a few special characters, per docs.python.org/3/library/re.html#regular-expression-syntax.
-* Because backslashes in regular expressions could be mistaken for escape sequences (like \n), best to use Python’s raw string notation for regular expression patterns. Just as format strings are prefixed with f, so are raw strings prefixed with r. For instance, instead of "harvard\.edu", use r"harvard\.edu".
-* Note that \b is “defined as the boundary between a \w and a \W character (or vice versa), or between \w at the beginning/end of the string,” per docs.python.org/3/library/re.html#regular-expression-syntax.
-* You might find regex101.com or regexr.com helpful for testing regular expressions (and visualizing matches).
-* See thefreedictionary.com/words-containing-um for some words that contain “um”.
+* Recall that the re module comes with quite a few functions, per [docs.python.org/3/library/re.html](https://docs.python.org/3/library/re.html), including findall.
+* Recall that regular expressions support quite a few special characters, per [docs.python.org/3/library/re.html#regular-expression-syntax](https://docs.python.org/3/library/re.html#regular-expression-syntax).
+* Because backslashes in regular expressions could be mistaken for escape sequences (like \n), best to use [Python’s raw string notation for regular expression patterns](https://docs.python.org/3/library/re.html#module-re). Just as format strings are prefixed with f, so are raw strings prefixed with r. For instance, instead of "harvard\.edu", use r"harvard\.edu".
+* Note that \b is “defined as the boundary between a \w and a \W character (or vice versa), or between \w at the beginning/end of the string,” per [docs.python.org/3/library/re.html#regular-expression-syntax](https://docs.python.org/3/library/re.html#regular-expression-syntax).
+* You might find [regex101.com](https://regex101.com/) or [regexr.com](https://regexr.com/) helpful for testing regular expressions (and visualizing matches).
+* See [thefreedictionary.com/words-containing-um](https://www.thefreedictionary.com/words-containing-um) for some words that contain “um”.
 
-Code um.py to make a file called um.py where you’ll write your program. Be sure to also execute
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
 
-Code test_um.py to create a file called test_um.py where you’ll, um, write tests for your program.
+$
+
+Next execute
+
+$ mkdir um
+
+to make a folder called um in your codespace.
+Then execute
+
+$ cd um
+
+to change directories into that folder. You should now see your terminal prompt as um/ $. You can now execute
+
+$ code um.py
+
+to make a file called um.py where you’ll write your program. Be sure to also execute
+
+$ code test_um.py
+
+to create a file called test_um.py where you’ll, um, write tests for your program.
 
 # How to Test
 
