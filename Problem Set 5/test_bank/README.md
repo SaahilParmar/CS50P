@@ -1,6 +1,6 @@
 # Back to the Bank
 
-In a file called bank.py, reimplement Home Federal Savings Bank from Problem Set 1, restructuring your code per the below, wherein value expects a str as input and returns 0 if that str starts with “hello”, 20 if that str starts with an “h” (but not “hello”), or 100 otherwise, treating the str case-insensitively. You can assume that the string passed to the value function will not contain any leading spaces. Only main should call print.
+In a file called bank.py, reimplement [Home Federal Savings Bank](https://cs50.harvard.edu/python/2022/psets/1/bank/) from [Problem Set 1](https://cs50.harvard.edu/python/2022/psets/1/), restructuring your code per the below, wherein value expects a str as input and returns 0 if that str starts with “hello”, 20 if that str starts with an “h” (but not “hello”), or 100 otherwise, treating the str case-insensitively. You can assume that the string passed to the value function will not contain any leading spaces. Only main should call print.
 
 def main():
 
@@ -32,6 +32,26 @@ from bank import value
 atop test_bank.py so that you can call value in your tests.
 
 * Take care to return, not print, an int in value. Only main should call print.
+
+# Before You Begin
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+
+$
+
+Next execute
+
+$ mkdir test_bank
+
+to make a folder called test_bank in your codespace.
+Then execute
+
+$ cd test_bank
+
+to change directories into that folder. You should now see your terminal prompt as test_bank/ $. You can now execute
+
+$ code test_bank.py
+
+to make a file called test_bank.py where you’ll write your tests.
 
 # How to Test
 
