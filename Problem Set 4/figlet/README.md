@@ -73,23 +73,16 @@ Invalid usage
 * Run your program with python figlet.py -f invalid_font. Your program should exit via sys.exit and print an error message:
 Invalid usage
 * Run your program with python figlet.py -f slant. Type CS50. Your program should print the following:
-   ___________ __________ 
-  / ____/ ___// ____/ __ \
- / /    \__ \/___ \/ / / /
-/ /___ ___/ /___/ / /_/ / 
-\____//____/_____/\____/  
+
+![App Screenshot](https://user-images.githubusercontent.com/116298945/222953246-6cec6fcf-b699-498c-8980-2da5d75f63cf.png)
+
 * Run your program with python figlet.py -f rectangles. Type Hello, world. Your program should print the following:
- _____     _ _                        _   _ 
-|  |  |___| | |___      _ _ _ ___ ___| |_| |
-|     | -_| | | . |_   | | | | . |  _| | . |
-|__|__|___|_|_|___| |  |_____|___|_| |_|___|
-                  |_|                       
+
+![App Screenshot](https://user-images.githubusercontent.com/116298945/222953235-ff46745b-8ae0-4fc8-b42f-5e1f4a7c818e.png)
+
 * Run your program with python figlet.py -f alphabet. Type Moo. Your program should print the following:
-M   M         
-MM MM         
-M M M ooo ooo 
-M   M o o o o 
-M   M ooo ooo                     
+
+![App Screenshot](https://user-images.githubusercontent.com/116298945/222953226-1521b0a9-9d3e-44bc-918d-82345647af60.png)
 
 You can execute the below to check your code using check50, a program that CS50 will use to test your code when you submit. But be sure to test it yourself as well!
 
