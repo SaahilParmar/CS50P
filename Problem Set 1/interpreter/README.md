@@ -20,7 +20,7 @@ x, y, z = expression.split(" ")
 will assign 1 to x, + to y, and 1 to z.
 
 # Before You Begin
-Log into code.cs50.io, click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
+Log into [code.cs50.io](https://code.cs50.io/), click on your terminal window, and execute cd by itself. You should find that your terminal window’s prompt resembles the below:
 
 $
 
